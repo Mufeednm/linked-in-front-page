@@ -1,0 +1,265 @@
+body {
+    margin: 0px;
+}
+
+.navbarh {
+    display: flex;
+    height: 75px;
+    background-color: white;
+    align-content: center;
+    margin-top: 20px;
+    gap: 250px;
+
+}
+
+.art,
+.ppl,
+.yt,
+.bag,
+.lap {
+    opacity: 0.4;
+}
+
+.art:hover {
+    opacity: 1;
+}
+
+.ppl:hover {
+    opacity: 1;
+}
+
+.yt:hover {
+    opacity: 1;
+}
+
+.bag:hover {
+    opacity: 1;
+}
+
+.lap:hover {
+    opacity: 1;
+}
+
+/* the above is the hover of  logos */
+.linkedlogo {
+    display: flex;
+    align-items: center;
+    display: flex;
+    margin-left: 160px;
+    height: 45px;
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 35px;
+    color: #2867b2;
+
+}
+
+.inof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    color: white;
+    font-size: 30px;
+    width: 5;
+    height: 5;
+    background-color: #0a66c2;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+UL {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+span {
+    padding: 12px;
+}
+
+/* from now  join of navbar */
+.joinsign {
+    display: flex;
+}
+
+
+
+.joinbutton {
+    background: none;
+    border: 0;
+    border-radius: 70px;
+    height: 45px;
+    width: 90px;
+    margin-left: 155pxxx;
+}
+
+.joinbutton:hover {
+    background-color: rgb(231, 231, 231);
+
+    /* from now sign in button */
+}
+
+.siginbutton {
+    background: none;
+    color: #0d83f9;
+    border-color: #0d83f9;
+    border-radius: 70px;
+    height: 50px;
+    width: 100px;
+
+}
+
+.siginbutton:hover {
+    background-color: rgb(230, 226, 252);
+}
+
+.container {
+    display: flex;
+}
+
+.formpart {
+    height: 800px;
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 56px;
+    font-weight: 200;
+    color: #b24020;
+}
+
+.imagepart {
+    height: 850px;
+    width: 700px;
+}
+
+.rightimage {
+    margin-top: 100px;
+    height: 550px;
+    width: 700px;
+}
+
+form {
+    margin-top: 35px;
+}
+
+#text {
+    width: 400px;
+    height: 55px;
+    display: flex;
+}
+
+#text:hover {
+    background-color: rgba(198, 198, 198, 0.262);
+}
+
+::placeholder {
+    color: #0a66c2;
+    text-align: right;
+    margin-right: 10px;
+}
+
+a {
+    font-size: larger;
+    font-weight: 600;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    color: #0a66c2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.Siginbutton1 {
+    margin-top: 30px;
+    width: 400px;
+    background-color: #0a66c2;
+    color: aliceblue;
+    font-weight: 600;
+    border: 0;
+    height: 40;
+    border-radius: 50px;
+}
+
+.Siginbutton1:hover {
+    background-color: #004182;
+    cursor: pointer;
+}
+
+.ortag {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+
+}
+
+hr {
+    width: 180;
+}
+
+.policytext {
+    font-size: small;
+    opacity: 0.6;
+    margin-top: 20px;
+
+}
+
+.useragre {
+    color: #004182;
+    font-weight: 600;
+
+}
+
+.googleSignin {
+    margin-top: 30px;
+    width: 400px;
+    background-color: #ffffff64;
+
+    font-weight: 600;
+    border-width: 1px;
+    height: 40;
+    border-radius: 50px;
+}
+
+.googleSignin:hover {
+    background-color: rgba(198, 198, 198, 0.262);
+}
+
+.joinnow {
+    margin-top: 15px;
+    width: 400px;
+    background-color: #fff;
+    font-weight: 600;
+    border-width: 1px;
+    height: 50;
+    border-radius: 50px;
+}
+
+.joinnow:hover {
+    background-color: rgba(198, 198, 198, 0.262);
+}
+
+.google {
+
+    margin-right: 5px;
+    background-color: #fff;
+}
+
+.lap {
+    border-style: solid groove;
+    border-width: 0px 1px 0px 1px;
+    padding: 8px;
+
+}
